@@ -216,6 +216,10 @@ PRODUCT_PACKAGES += \
     libshim_camera \
     libgutils
 
+# Touch features
+PRODUCT_PACKAGES += \
+    vendor.lineage.touch@1.0-service.samsung
+
 # Trust HAL
 PRODUCT_PACKAGES += \
     vendor.lineage.trust@1.0-service
